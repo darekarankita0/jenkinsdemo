@@ -31,13 +31,10 @@ pipeline {
 
 post{
     always{
-      echo 'send emails'
     }
     success{
-      echo 'Process completed'
     }
     failure{
-      echo 'Process failed'
     }
     }
 
